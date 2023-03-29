@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NIMRODEL Pub Restaurant</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-
+    UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
+    <!--Imagen en el título-->
+    <link rel="shortcut icon" href="assets/img/n.png" type="image/x-icon" />
+    <!--Estilos-->
+    <link rel="stylesheet" href="./assets/styles/styles.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="navbar-container">
+        <img class="logo" src="assets/img/n.png" alt="Logo empresa" />
+        <ul class="navbar-menu">
+          <li>Nuestros productos</li>
+            <li>Sobre nosotros</li>
+            <li><a href="assets/views/contacto.html">Comuniquemonos</a></li>
+            <li><a href="assets/views/reservas.html">Reservas</a></aZ></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="content">
+      <div class="titles">
+        <h1>Nimrodel Pub Restaurant</h1>
+        <h2>Destacados de la semana</h2>
+      </div>
+      <br/>
+      <br/>
+      <br/>
+      <section class="productos">
+        <table>
+          <tr>
+            <td>
+              <img class="Bebidas" src="assets/img/bebidas.jpg" />
+              <h3>Gaseosas</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </td>
+            <td>
+              <img class="Tablas" src="assets/img/tablas.jpg" />
+              <h3>Tablas</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </td>
+            <td>
+              <img class="Shop" src="assets/img/shop.jpeg" />
+              <h3>Shop</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </td>
+          </tr>
+        </table>
+      </section>
+      <article class="contacto-usuario">
+        <section class="comunicacion">
+          <h1>Comuniquemonos</h1>
+          <form method="post">
+            <div>
+              <label for="nombre">Nombre</label>
+              <input type="text" name="nombre" id="nombre" placeholder="Maria Vargas"/>
+            </div>
+            <br />
+            <div>
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" placeholder="mariavargas@correo.com"/>
+            </div>
+            <br />
+            <div>
+              <label for="telefono">Telefono</label>
+              <input type="number" name="telefono" id="telefono" placeholder="951236874"/>
+            </div>
+            <br />
+            <div>
+              <label for="motivo">Motivo</label>
+              <input type="text" name="motivo" id="motivo">
+            </div>
+            <br />
+            <div>
+              <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+            </div>
+            <input type="submit" value="Enviar" />
+          </form>
+        </section>
+        <br/>
+        <br/>
+        <br/>
+        <section class="reservas">
+          <h1>Reserva</h1>
+          <form method="post">
+            <div>
+              <label for="nombre">Nombre</label>
+              <input type="text" name="nombre" id="nombre" placeholder="xxx xxxxx"/>
+            </div>
+            <br/>
+            <div>
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" placeholder="xxx@xxx.xx"/>
+            </div>
+            <br/>
+            <div>
+              <label for="telefono">Telefono</label>
+              <input type="number" name="telefono" id="telefono" placeholder="xxxxxxxxx"/>
+            </div>
+            <br/>
+            <div>
+              <label for="fecha_reserva">Fecha de reserva</label>
+              <input type="date" name="fecha_reserva" id="fecha_reserva" />
+            </div>
+            <br/>
+            <div>
+              <label for="hora_reserva">Hora de reserva</label>
+              <input type="time" name="hora_reserva" id="hora_reserva" />
+            </div>
+            <br/>
+            <div>
+              <label for="cantidad_asistentes">Cantidad de asistentes</label><br/>
+              <input type="number" name="cantidad_personas" id="cantidad_personas" /> <br/> <br/>
+            <input type="submit" value="Reservar" />
+          </form>
+        </section>
+      </article>
+      <footer>
+        <p>
+          2023. Todos los derechos reservados
+          <i class="far fa-registered"></i>
+        </p>
+      </footer>
+    </div>
+  </body>
+
+</html>

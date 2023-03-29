@@ -1,0 +1,105 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+.content img{
+    max-width: 600px; 
+}
+
+.logo{
+    max-width: 200px;
+    background-size: cover;
+    background-position: center;
+}
+.navbar-menu{
+    display:flex;
+    list-style:none;
+    justify-content: space-between;
+    margin:0;
+    padding:0;
+    color:#fff
+}
+footer{
+    background-image: url(../img/fondo.jpg);
+    background-color: #000;
+    background-size:cover;
+    background-position: -550px center;
+    background-repeat: no-repeat;
+    color: #fff;
+    height: 1300px;
+    max-height: 100%;
+    clip-path: polygon(0 0, 100% 0, 100% 40%, 0 40%);
+}
+
+footer p{
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 18%;
+}
+
+.logo img{
+    max-width:200px;
+}
+.navbar-container{
+    background-image: url(../img/fondo.jpg);
+}
+
+.titles h1{
+    font-size: 100px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: grey;
+
+}
+/*h2 con misma estructura de h1 pero con un subrayado sobre el texto*/
+h2{
+    font-weight: 1000;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    border-top: 2px solid #000;
+    width: 400px;
+    margin: 0 auto;
+}
+/*add table spacing between tds*/
+table{
+    border-spacing: 10px;
+}
+/*contacto-usuario centrado en la página*/
+.contacto-usuario{
+    text-align: center;
+}
+.comunicacion{
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid #000;
+    padding: 10px;
+    box-shadow: 0 0 10px #000;
+    border-radius: 20px;
+    background-color: rgb(30, 30, 30);
+    color:white;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.comunicacion h1{
+    color:white;
+}
+.reservas{
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid #000;
+    padding: 10px;
+    box-shadow: 0 0 10px #000;
+    border-radius: 20px;
+    background-color: rgb(30, 30, 30);
+    color:white;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.reservas h1{
+    color:white;
+    margin-top: 20px;
+}
